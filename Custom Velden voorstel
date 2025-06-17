@@ -1,0 +1,55 @@
+Sectie: Hero Block
+1. Titel / label: Label boven titel
+Verplicht: Ja
+Standaardwaarde: Label
+Tooltip: Korte aanduiding boven de titel, bijvoorbeeld categorie of sectienaam.
+Constraints: Max. 50 tekens, alleen tekst.
+
+2. Titel voor call-to-action
+Verplicht: Ja
+Standaardwaarde: Mandatory title about the
+Tooltip: Eerste deel van de hoofdtitel, vóór de call-to-action.
+Constraints: Max. 100 tekens, geen HTML.
+
+3. Call-to-action tekst (in de titel)
+Verplicht: Ja
+Standaardwaarde: call to action
+Tooltip: Dit wordt visueel extra benadrukt binnen de titel.
+Constraints: Max. 60 tekens.
+
+4. Titel na call-to-action
+Verplicht: Ja
+Standaardwaarde: here
+Tooltip: Laatste deel van de hoofdtitel.
+Constraints: Max. 60 tekens.
+
+5. Body tekst
+Verplicht: Nee
+Standaardwaarde: Optional body copy goes here
+Tooltip: Een korte toelichting onder de titel.
+Constraints: Max. 300 tekens, geen HTML.
+
+6. Optionele knop tekst
+Verplicht: Nee
+Standaardwaarde: Optional button
+Tooltip: Tekst voor een optionele knop. Laat leeg als je geen knop wilt tonen.
+Constraints: Max. 40 tekens.
+
+Sectie: Call-to-action Cards (herhaalbaar veld)
+1. Titel card
+Verplicht: Ja
+Standaardwaarde: Title
+Tooltip: Titel van de call-to-action kaart.
+Constraints: Max. 60 tekens.
+
+2. Tekst card
+Verplicht: Ja
+Standaardwaarde: Supporting text about the call-to-action goes here.
+Tooltip: Korte beschrijving onder de titel van de kaart.
+Constraints: Max. 200 tekens.
+
+3.Afbeelding
+Verplicht: Ja
+Standaardwaarde: Geen
+Tooltip: Achtergrondafbeelding van de kaart. Formaat bij voorkeur 1300x1000px.
+Constraints: Alleen afbeeldingsbestanden (.jpg, .png, .webp), max. 2MB.
