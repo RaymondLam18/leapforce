@@ -1,9 +1,7 @@
 <script setup>
-import ArrowLeftIcon from '../icons/ArrowLeft.vue';
 import ArrowRightIcon from '../icons/ArrowRight.vue';
 
 defineProps({
-  direction: String,
   disabled: Boolean
 })
 </script>
@@ -15,10 +13,6 @@ defineProps({
       :tabindex="disabled ? -1 : 0"
       :aria-disabled="disabled"
   >
-    <component
-        :is="direction === 'left' ? ArrowLeftIcon : ArrowRightIcon"
-        class="w-3 h-3"
-        aria-hidden="true"
-    />
+    <ArrowRightIcon class="w-3 h-3" aria-hidden="true" />
   </div>
 </template>
