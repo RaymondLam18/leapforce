@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url('../fonts/TT-Commons-Pro-Normal.woff2') format('woff2');
+  font-weight: 450;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons Pro";
+  src: url('../fonts/TT-Commons-Pro-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT Commons Pro Bold";
+  src: url('../fonts/TT-Commons-Pro-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Alpina";
+  src: url('../fonts/GTAlpina-Light.woff2') format('woff2');
+  font-display: swap;
+}

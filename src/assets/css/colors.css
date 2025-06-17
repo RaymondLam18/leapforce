@@ -1,0 +1,16 @@
+:root {
+    --opacity-zwart-30: rgba(27, 36, 38, 0.30);
+    --opacity-zwart-50: rgba(27, 36, 38, 0.50);
+    --opacity-zwart-80: rgba(27, 36, 38, 0.80);
+    --main-colors-oranje-rood: #BF564D;
+    --interactive-oranje-rood-hover: #A6433A;
+    --interactive-oranje-rood-focussed: #59201B;
+    --neutrals-zwart: #1B2426;
+    --neutrals-soft-white: #FAFAFA;
+    --opacity-wit-30: rgba(255, 255, 255, 0.30);
+    --neutrals-wit: #FFFFFF;
+    --wit: #FFF;
+    --main-colors-groengrijs: #39494D;
+    --header-zwart: #212121;
+    --body-zwart: #1E2526;
+}
